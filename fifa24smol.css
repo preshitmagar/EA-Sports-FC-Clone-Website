@@ -1,0 +1,57 @@
+.buynow{
+    display: flex;
+    position: relative;
+    left: 130px;
+}
+.middle_nav {
+
+    display:flex;
+    position:relative;
+    left: 35px;
+}
+.left_nav {
+    position: relative;
+    left: 20px;
+}
+.right_nav {
+    position: absolute;
+    display: flex;
+    right: 150px;
+}
+#one::before{
+    background-size:120% ;
+}
+.middle_nav li {
+    padding: 10px;
+    margin: 3px 14px;
+}
+
+/*Section 2*/
+.container{
+    left: -40px;
+    margin: 10px;
+    padding: 0px;
+}
+#panel1{
+    transform: scale(0.7);
+}
+#panel2{
+    transform: scale(0.7);
+    right: 170px ;
+}
+
+/*Section 3*/
+
+.logos{
+    position: relative;
+    left: 400px ;
+}
+/*section 4*/
+
+.preorder-image img{
+    left: 130px;
+}
+.preorderbtn a{
+    transform: scale(0.9);
+    left: 800px;
+}
